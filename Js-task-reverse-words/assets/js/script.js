@@ -1,0 +1,10 @@
+function reverseword(sentences, cb) 
+{
+    let newSentences = "";
+
+    for (let i = sentences.length-1 ; i >=0; i--) {
+        newSentences+=sentences[i];
+    }
+    return newSentences;
+} 
+console.log(reverseword("Uçlu kalem veya basmalı kalem olarak adlandırılan, iç mekanizması prinç, alüminyum ve çelik gibi maddelerden imal edilen yazım gerecidir. Her biri belirli uç kalınlıklarına sahiptir. Kalem arkasından kendisine özgü olarak konulan uçların, konulduğu yerden bas-çek tekniği ile içerideki mekanizmasının çalışmasından dolayı basmalı kalem ismini almıştd Uç konulan kısım kalemin yazı kısmındaki uç kalınlığına göre değişiklik göstermektedir ve her biri sadece kendine özgü uçlar ile çalışmaktadır. Uç konulan kısımda genel de bir kapak bulunur. Uç konduktan sonra kapak kapatılır ve bas-çek tekniği uygulanmaya başlanır. Bu sayede kalem içerisindeki yaylı mekanizma çalıştırılmış olur. Uç mekanizma içerisinde ilerleyerek kalemin yazım kısmına iletilir ve bu sayede yazım gerçekleştirme imkanına sahip olunur. Genel olarak uç çapları 0.2-0.4mm, 0.5mm, 0.7mm, 0.9 mm ve 1.0mm olarak ayrılmaktadır. En çok kullanılan uç çapları 0.5mm ve 0.7mm'dir. 0.3mm uçlar genellikle teknik çizimlerde kullanılmaktadır. 0.9 ve 1.0mm'ler ise genel olarak uçlu versatil kalem ile yeni yazıma başlayan ve alışma sürecinde olanlar tarafından tercih edilmektedir. Daha nadir kullanılan 0.2-0.4mm aralığında uç kullanan kalemler daha az üretilmektedir ve bu kalemlere uygun uçlar bulmak daha zordur. Bu kalemler genellikle profesyoneller tarafından kullanılır. Gelişlen teknoloji ile versatil kalemler de sürekli olarak geliştirilmiştir. Bu sayede bazılarının da uç konulan kısımlarında silgi bulunmaktadır. Kimisi çevirerek içeriden dışarıya çıkan, kimisi de direkt olarak kullanılmaktadır. Genel anlamda versatil kalem metal ve plastik parçalardan oluşmaktadır. Bu kalemin kalitesine göre değişiklik göstermektedir."));
